@@ -73,19 +73,19 @@ body{
     }
 }
 @media (max-width:500px){
-    .icons{
+    .icons {
         display: inline-flex;
     }
 
-    #check:checked~.icons #menu-icon{
+    #check:checked~.icons #menu-icon {
         display: none;
     }
 
-    .icons #close-icon{
+    .icons #close-icon {
         display: none;
     }
 
-    #check:checked~.icons #close-icon{
+    #check:checked~.icons #close-icon {
         display: block;
     }
 
